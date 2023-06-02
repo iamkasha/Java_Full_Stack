@@ -1,5 +1,6 @@
 package Day1;
 
+// Student class
 public class Student {
     private String name;
 
