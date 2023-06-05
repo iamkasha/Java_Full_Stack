@@ -14,6 +14,7 @@ public class June02Main {
 
         System.out.println("Age from static is: " + StaticClass.displayAge(21));
 
+        // Final class
         myFinalClass f1 = new myFinalClass();
         f1.displayFamily();
     }
