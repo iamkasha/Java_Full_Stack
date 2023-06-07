@@ -2,7 +2,7 @@ package June06;
 
 public class ArrayRotation {
 
-    public int[] rotateArray(int[] arr, int pos){
+    public void rotateArray(int[] arr, int pos){
         int n = arr.length;
         int[] temp = new int[n];
         for(int i=pos; i<n; i++){
@@ -11,7 +11,12 @@ public class ArrayRotation {
         for (int j=0; j<pos; j++){
             temp[n-pos+j] = arr[j];
         }
-        return temp;
+
+        System.out.print("Rotated array elements :");
+
+        for(int k=0; k< temp.length; k++){
+            System.out.print(temp[k] + " ");
+        }
     }
 
 }

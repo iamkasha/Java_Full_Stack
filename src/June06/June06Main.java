@@ -14,10 +14,10 @@ public class June06Main {
 
 
         ReverseArray r1 = new ReverseArray();
-        System.out.println(Arrays.toString(r1.arrayReverse(a)));
+        r1.arrayReverse(a);
 
         ArrayRotation rotate1 = new ArrayRotation();
-        System.out.println(Arrays.toString(rotate1.rotateArray(b, 4)));
+        rotate1.rotateArray(b,3);
 
     }
 }
