@@ -5,6 +5,8 @@ public class Fibonacci {
     int c;
 
     public void fibSeries(int n){
+
+
         int i = 2;
         System.out.print("The fibonacci series is: ");
         do {
