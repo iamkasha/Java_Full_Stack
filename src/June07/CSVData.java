@@ -25,7 +25,7 @@ public class CSVData {
         }
 
         Arrays.sort(student);
-//        System.out.println(Arrays.toString(student));
+
 
         for (Student s:
              student) {
