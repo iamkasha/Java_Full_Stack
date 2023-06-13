@@ -10,7 +10,7 @@ public class InvalidStrToIntException extends RuntimeException{
 
 class Main {
 
-    static void toInt(String s) throws InvalidStrToIntException {
+    static void toInt(String s){
         try
         {
            int s1= Integer.parseInt(s);
@@ -23,9 +23,7 @@ class Main {
 
 
     public static void main(String[] args) {
-
         toInt("123");
         toInt("test");
-
     }
 }
