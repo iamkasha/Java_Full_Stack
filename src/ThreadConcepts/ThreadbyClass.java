@@ -8,15 +8,10 @@ public class ThreadbyClass extends Thread {
     }
     public static void main(String[] args) {
 
-        ThreadbyClass example = new ThreadbyClass();
-
-        Thread thread1 = new Thread(example);
-        Thread thread2 = new Thread(example);
-        thread1.setName("Thread class first thread");
-        thread2.setName("Thread class second thread");
-
-        thread1.start();
-        thread2.start();
+        ThreadbyClass example1 = new ThreadbyClass();
+//        ThreadbyClass example2 = new ThreadbyClass();
+        example1.start();
+//        example2.start();
 
     }
 }
