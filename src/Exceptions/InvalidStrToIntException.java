@@ -3,6 +3,7 @@ package Exceptions;
 public class InvalidStrToIntException extends RuntimeException{
 
    public  InvalidStrToIntException(Exception e){
+//       e.printStackTrace();
        System.out.println(e);
    }
 
