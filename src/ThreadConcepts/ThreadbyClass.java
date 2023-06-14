@@ -12,8 +12,8 @@ public class ThreadbyClass extends Thread {
 
         Thread thread1 = new Thread(example);
         Thread thread2 = new Thread(example);
-        thread1.setName("first thread");
-        thread2.setName("second thread");
+        thread1.setName("Thread class first thread");
+        thread2.setName("Thread class second thread");
 
         thread1.start();
         thread2.start();

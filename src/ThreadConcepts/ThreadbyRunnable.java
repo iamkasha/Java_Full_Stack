@@ -15,7 +15,7 @@ public class ThreadbyRunnable implements Runnable{
         Thread secondThread = new Thread(runnableExample);
 
         firstThread.setName("Runnable first thread");
-        secondThread.setName("second thread");
+        secondThread.setName("Runnable second thread");
 
         firstThread.start();
         secondThread.start();
