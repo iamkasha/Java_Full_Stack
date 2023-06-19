@@ -9,7 +9,7 @@ public class TicketBooking {
 
     int tickets = 100;
 
-    synchronized public void giveTickets(int ticketCount){
+     synchronized public void giveTickets(int ticketCount){
         if(ticketCount < tickets) {
             System.out.println(Thread.currentThread().getName() + " is here");
             tickets = tickets - ticketCount;
