@@ -1,7 +1,6 @@
 package StreamsLamdas;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class Capitalise {
     public static void main(String[] args) {
