@@ -2,10 +2,7 @@ package Collectionss;
 
 import java.util.ArrayList;
 
-public class StudentList extends Student {
-    public StudentList(String firstName, String lastName, float gpa) {
-        super(firstName, lastName, gpa);
-    }
+public class StudentList {
 
     public static void main(String[] args) {
 
