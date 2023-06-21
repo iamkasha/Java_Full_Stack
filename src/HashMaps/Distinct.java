@@ -9,7 +9,7 @@ public class Distinct {
 
         LinkedHashMap<Character, Integer> ans = new LinkedHashMap<>();
         String input = "test string";
-        char[] charArr = input.toCharArray();
+        char[] charArr = input.toLowerCase().toCharArray();
 
         for(int i=0; i<input.length(); i++){
              if(charArr[i] != ' ') {
@@ -24,7 +24,7 @@ public class Distinct {
 
         Iterator<Character> itr = ans.keySet().iterator();
         while (itr.hasNext()){
-            Character key = (Character) itr.next();
+            Character key = itr.next();
             Integer value = ans.get(key);
             System.out.println(key + "-" + value);
         }
