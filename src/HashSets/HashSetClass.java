@@ -25,11 +25,11 @@ public class HashSetClass {
             System.out.println(itr.next());
         }
 
-        System.out.println("------------------------------");
+        System.out.println("-----------------------------");
 
         hs.forEach(s -> System.out.println(s));
 
-        System.out.println("------------------------------");
+        System.out.println("-----------------------------");
 
         hs.stream().forEach(st -> System.out.println(st));
 
